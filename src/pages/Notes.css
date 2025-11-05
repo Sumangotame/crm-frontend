@@ -1,0 +1,44 @@
+
+.notes-table {
+  border: 2px solid #dee2e6;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.notes-table th,
+.notes-table td {
+  vertical-align: middle;
+  border-color: #dee2e6;
+}
+
+.notes-table tbody tr:nth-child(odd) {
+  background-color: #f8f9fa;
+}
+
+.notes-table tbody tr:hover {
+  background-color: #e9ecef;
+  transition: background-color 0.3s;
+}
+
+.badge.entity-lead {
+  background-color: #0d6efd;
+}
+
+.badge.entity-contact {
+  background-color: #198754;
+}
+
+.badge.entity-account {
+  background-color: #fd7e14;
+}
+
+.badge.entity-opportunity {
+  background-color: #6f42c1;
+}
+
+.badge {
+  color: #fff;
+  padding: 0.4em 0.6em;
+  font-size: 0.85em;
+  border-radius: 5px;
+}
